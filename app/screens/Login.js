@@ -12,6 +12,7 @@ import {
 import { styles } from "../utils/styles";
 
 const Login = ({ navigation }) => {
+    console.log('this is login');
     const [username, setUsername] = useState("");
 
     const storeUsername = async () => {
